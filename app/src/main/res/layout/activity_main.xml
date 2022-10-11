@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/body"
+        android:layout_width="444dp"
+        android:layout_height="362dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149"
+        app:srcCompat="@drawable/body"
+        tools:layout_editor_absoluteX="-17dp" />
+
+    <ImageView
+        android:id="@+id/hair"
+        android:layout_width="269dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/hair"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <ImageView
+        android:id="@+id/beard"
+        android:layout_width="252dp"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/beard"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageView
+        android:id="@+id/moustache"
+        android:layout_width="282dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/moustache"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <ImageView
+        android:id="@+id/eyebrow"
+        android:layout_width="301dp"
+        android:layout_height="33dp"
+        app:srcCompat="@drawable/eyebrow"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/eyes"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/eyes"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <CheckBox
+        android:id="@+id/checkRambut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rambut"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <CheckBox
+        android:id="@+id/checkKumis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kumis"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <CheckBox
+        android:id="@+id/checkAlis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alis"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <CheckBox
+        android:id="@+id/checkJanggut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Janggut"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="518dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
